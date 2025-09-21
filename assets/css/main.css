@@ -240,6 +240,38 @@ body {
     color: #2d3748;
     padding: 3.5rem 0;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hero with Local Penrith Image */
+.hero-local {
+    background: url('../images/victoria-bridge-penrith.jpg') center/cover no-repeat;
+    color: white;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.hero-local .hero-content {
+    background: rgba(44, 90, 160, 0.85);
+    padding: 2.5rem 3rem;
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
+    max-width: 900px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.hero-local h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-local .hero-subtitle {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.2rem;
 }
 
 .hero-content h1 {
