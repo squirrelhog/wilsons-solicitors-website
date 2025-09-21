@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/rickj/Downloads/Wilsons solicitors website mockup/**)",
+      "WebSearch",
+      "WebFetch(domain:www.lamrocks.com.au)",
+      "WebFetch(domain:www.batemanbattersby.com.au)",
+      "WebFetch(domain:www.fglaw.com.au)",
+      "Read(//c/Users/rickj/Downloads/fwwebpages/**)",
+      "Bash(python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
