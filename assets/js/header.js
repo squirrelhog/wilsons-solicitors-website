@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li><a href="${pathPrefix}our-story.html">Our Story</a></li>
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
                     <li><a href="${pathPrefix}faqs.html">FAQs</a></li>
-                    <li><a href="${pathPrefix}privacy.html">Privacy Policy</a></li>
                 </ul>
             </nav>
 
@@ -55,7 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li><a href="${pathPrefix}our-story.html">Our Story</a></li>
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
                     <li><a href="${pathPrefix}faqs.html">FAQs</a></li>
-                    <li><a href="${pathPrefix}privacy.html">Privacy Policy</a></li>
                 </ul>
             </div>
         </div>
