@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
                             <li><a href="${pathPrefix}services/probate-administration.html">Probate & Administration</a></li>
                             <li><a href="${pathPrefix}services/conveyancing.html">Property & Conveyancing</a></li>
                             <li><a href="${pathPrefix}services/powers-attorney.html">Powers of Attorney</a></li>
-                            <li><a href="${pathPrefix}services/death-benefits.html">Death Benefits</a></li>
-                            <li><a href="${pathPrefix}services/estate-disputes.html">Estate Disputes</a></li>
+                            <li><a href="${pathPrefix}services/death-benefits.html">Superannuation Death Benefits</a></li>
+                            <li><a href="${pathPrefix}services/estate-disputes.html">Estate & Trust Disputes</a></li>
                         </ul>
                     </li>
                     <li><a href="${pathPrefix}about.html">About</a></li>

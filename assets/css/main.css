@@ -248,7 +248,7 @@ body {
 .hero-local {
     background: url('../images/sydney-opera-house-hero.jpg') no-repeat;
     background-position: center calc(50% + 2rem);
-    background-size: 75% 100%;
+    background-size: 67.5% 100%;
     background-color: #1a2942;
     color: white;
     min-height: 550px;
@@ -261,16 +261,17 @@ body {
 
 .hero-local .hero-content {
     background: rgba(44, 90, 160, 0.85);
-    padding: 2.5rem 3rem;
+    padding: 1.5rem 2rem;
     border-radius: 12px;
     backdrop-filter: blur(3px);
     max-width: 900px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-.hero-local h1 {
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+.hero-local .hero-content h1 {
+    color: #1a1a1a !important;
+    text-shadow: 0 1px 3px rgba(255,255,255,0.5);
+    font-weight: 800;
 }
 
 .hero-local .hero-subtitle {
