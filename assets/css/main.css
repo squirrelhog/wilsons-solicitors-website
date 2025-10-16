@@ -247,8 +247,8 @@ body {
 /* Hero with Australian Landmark Image */
 .hero-local {
     background: url('../images/Hero_Image-1920w.webp') no-repeat;
-    background-position: center calc(50% + 2rem);
-    background-size: 67.5% 100%;
+    background-position: center top;
+    background-size: 67.5% 150%;
     background-color: #1a2942;
     color: white;
     min-height: 550px;
