@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="footer-right">
                 <p><a href="tel:0247315311">(02) 4731 5311</a></p>
-                <p><a href="mailto:david@wilsonssolicitors.com.au" style="text-decoration: underline;">david@wilsonssolicitors.com.au</a></p>
+                <p><a href="mailto:david@dw.legal" style="text-decoration: underline;">david@dw.legal</a></p>
             </div>
         </div>
         
