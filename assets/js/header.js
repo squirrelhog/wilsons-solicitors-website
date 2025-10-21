@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="logo-text">
                     <h1>Wilsons Solicitors Penrith</h1>
-                    <div class="tagline">PENRITH LAWYERS | WILLS | ESTATES | PROPERTY</div>
+                    <div class="tagline">WILLS | ESTATES | PROPERTY</div>
                 </div>
             </div>
 
@@ -37,6 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li><a href="${pathPrefix}faqs.html">FAQs</a></li>
                 </ul>
             </nav>
+
+            <!-- Phone Section -->
+            <div class="phone-section" style="position: absolute; right: 8rem; top: 50%; transform: translateY(-50%);">
+                <a href="tel:0247315311" style="font-size: 1.5rem; font-weight: bold; color: #1a365d; text-decoration: underline; white-space: nowrap;">(02) 4731 5311</a>
+            </div>
 
             <!-- Mobile Menu Toggle -->
             <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
