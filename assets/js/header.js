@@ -23,12 +23,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li class="has-dropdown">
                         <a href="${pathPrefix}services.html">Services</a>
                         <ul class="dropdown-menu">
-                            <li><a href="${pathPrefix}services/wills-estate-planning.html">Wills & Estate Planning</a></li>
-                            <li><a href="${pathPrefix}services/probate-administration.html">Probate & Administration</a></li>
+                            <li><a href="${pathPrefix}services/wills-estate-planning.html">Wills, Estate Planning & Business Succession</a></li>
+                            <li><a href="${pathPrefix}services/probate-administration.html">Estate Administration & Probate</a></li>
                             <li><a href="${pathPrefix}services/conveyancing.html">Property & Conveyancing</a></li>
-                            <li><a href="${pathPrefix}services/powers-attorney.html">Powers of Attorney</a></li>
+                            <li><a href="${pathPrefix}services/powers-attorney.html">Lifetime Planning - Powers of Attorney</a></li>
                             <li><a href="${pathPrefix}services/death-benefits.html">Superannuation Death Benefits</a></li>
-                            <li><a href="${pathPrefix}services/estate-disputes.html">Estate & Trust Disputes</a></li>
+                            <li><a href="${pathPrefix}services/estate-disputes.html">Estate Disputes & Litigation</a></li>
                         </ul>
                     </li>
                     <li><a href="${pathPrefix}about.html">About</a></li>
