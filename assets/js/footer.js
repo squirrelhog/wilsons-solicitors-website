@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="footer-right">
                 <p><a href="tel:0247315311" style="font-size: 1.25rem; font-weight: bold; color: white;">(02) 4731 5311</a></p>
-                <p><a href="mailto:david@dw.legal" style="font-size: 1.25rem; font-weight: bold; color: white; text-decoration: underline;">david@dw.legal</a></p>
+                <p><a href="mailto:info@dw.legal" style="font-size: 1.25rem; font-weight: bold; color: white; text-decoration: underline;">info@dw.legal</a></p>
             </div>
         </div>
         
