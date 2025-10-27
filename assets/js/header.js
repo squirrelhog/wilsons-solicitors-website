@@ -26,9 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
                             <li><a href="${pathPrefix}services/wills-estate-planning.html">Wills, Estate Planning & Business Succession</a></li>
                             <li><a href="${pathPrefix}services/probate-administration.html">Estate Administration & Probate</a></li>
                             <li><a href="${pathPrefix}services/conveyancing.html">Property & Conveyancing</a></li>
-                            <li><a href="${pathPrefix}services/powers-attorney.html">Lifetime Planning - Powers of Attorney</a></li>
-                            <li><a href="${pathPrefix}services/death-benefits.html">Superannuation Death Benefits</a></li>
+                            <li><a href="${pathPrefix}services/powers-attorney.html">Lifetime Planning - Power of Attorney & Enduring Guardianship</a></li>
+                            <li><a href="${pathPrefix}services/wrongful-death.html">Wrongful Death Claim</a></li>
+                            <li><a href="${pathPrefix}services/death-benefits.html">Superannuation Death Benefit Claims</a></li>
                             <li><a href="${pathPrefix}services/estate-disputes.html">Estate Disputes & Litigation</a></li>
+                            <li><a href="${pathPrefix}services/elder-law.html">Elder Law</a></li>
+                            <li><a href="${pathPrefix}services/financial-loss-recovery.html">Financial Loss Recovery</a></li>
                         </ul>
                     </li>
                     <li><a href="${pathPrefix}about.html">About</a></li>
