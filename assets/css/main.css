@@ -201,7 +201,12 @@ body {
     .nav-section {
         display: none;
     }
-    
+
+    /* Hide phone section on mobile to prevent overlap */
+    .phone-section {
+        display: none !important;
+    }
+
     .mobile-menu-toggle {
         display: flex;
         position: absolute;
@@ -209,21 +214,34 @@ body {
         top: 50%;
         transform: translateY(-50%);
     }
-    
+
     .mobile-menu.active {
         display: block;
     }
-    
+
     .mobile-menu-toggle.active span:nth-child(1) {
         transform: rotate(-45deg) translate(-5px, 6px);
     }
-    
+
     .mobile-menu-toggle.active span:nth-child(2) {
         opacity: 0;
     }
-    
+
     .mobile-menu-toggle.active span:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    /* Adjust header for mobile */
+    .header {
+        padding: 10px 20px;
+    }
+
+    .logo-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .tagline {
+        font-size: 0.65rem;
     }
 }
 
@@ -1012,11 +1030,37 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero-subtitle {
-        font-size: 1.125rem;
+        font-size: 1rem;
+    }
+
+    .hero-local {
+        min-height: auto;
+        padding: 2rem 1rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-local .hero-content {
+        padding: 1.5rem;
+    }
+
+    .hero-local .hero-content h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-local .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    /* Hide or resize the accredited image on mobile */
+    .hero-local img[alt="Wills & Estates Law Accredited Specialist"] {
+        width: 150px !important;
+        margin-bottom: 1rem;
     }
 
     .section-title {
@@ -1055,6 +1099,11 @@ body {
     .cta-button.cta-primary,
     .cta-button.cta-secondary {
         text-align: center;
+    }
+
+    .cta-button.cta-primary {
+        padding: 1.5rem 2rem;
+        font-size: 1.25rem;
     }
 }
 
