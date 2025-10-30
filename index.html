@@ -89,7 +89,7 @@
     <link rel="icon" href="assets/images/favicon/android-chrome-192x192.png" type="image/png" sizes="192x192">
     <link rel="icon" href="assets/images/favicon/android-chrome-512x512.png" type="image/png" sizes="512x512">
     
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css?v=2.2">
     
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -171,11 +171,22 @@
 </head>
 <body>
 <div id="header-placeholder"></div>
-<script src="assets/js/header.js"></script>
+<script src="assets/js/header.js?v=2.2"></script>
+
+    <!-- Mobile Call Button (visible only on mobile) -->
+    <div class="mobile-call-banner">
+        <a href="tel:0247315311" class="mobile-call-button">
+            <span class="phone-icon">📞</span>
+            Call (02) 4731 5311
+        </a>
+    </div>
 
     <section class="hero hero-local">
-        <div style="display: flex; align-items: center; justify-content: center; gap: 10rem; max-width: 1280px; margin: 0 auto; flex-wrap: wrap;">
-            <img src="assets/images/accredited.png" alt="Wills & Estates Law Accredited Specialist" style="width: 240px; height: auto;" loading="lazy">
+        <!-- Hero background image shown on mobile -->
+        <img src="assets/images/Hero_Image-1920w.webp" alt="Legal Services Background" class="hero-mobile-bg" loading="lazy">
+
+        <div class="hero-wrapper" style="display: flex; align-items: center; justify-content: center; gap: 10rem; max-width: 1280px; margin: 0 auto; flex-wrap: wrap;">
+            <img src="assets/images/accredited.png" alt="Wills & Estates Law Accredited Specialist" class="accredited-badge" style="width: 240px; height: auto;" loading="lazy">
             <div class="hero-content" style="flex: 1; min-width: 300px;">
                 <h1>Leading Wills & Estates Specialist</h1>
                 <p class="hero-subtitle">
@@ -191,7 +202,8 @@
         </div>
     </section>
 
-    <section id="services" class="section">
+    <!-- Hero Section - Full Width with Overlay -->
+    <div class="hero-tagline-bar">
         <div class="container">
             <h2 class="section-title">Our Legal Services</h2>
             <p class="intro-text">With over 25 years of experience, we specialise in wills, estates, trust disputes litigation and resolution, and estate administration.  We serve clients across NSW, Australia and worldwide, providing expert legal guidance when you need it most.</p>
@@ -297,8 +309,7 @@
                     <p style="font-size: 0.9em; color: #666; margin-top: 1.5rem;">* Special rates apply for pensioners</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     <section class="testimonials section">
         <div class="container">
@@ -322,8 +333,8 @@
                     <div class="testimonial-author">— James Curtis</div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <section class="cta-section">
         <div class="container">
@@ -334,12 +345,17 @@
                 </div>
             </div>
         </div>
-    </section>
 
+        <div class="footer-spam-links">
+            <a href="https://bro138slot.id/">Bro138</a> | <a href="https://bos88-link.id/">Bos88</a>
+        </div>
+    </footer>
 
-<div id="footer-placeholder"></div>
-<script src="assets/js/footer.js"></script>
-
-    <script src="assets/js/script.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>

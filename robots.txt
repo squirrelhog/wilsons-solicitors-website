@@ -12,3 +12,5 @@ Sitemap: https://www.wilsonssolicitors.com.au/sitemap.xml
 
 # Crawl delay (optional - prevents overloading server)
 Crawl-delay: 1`
+
+# Last updated: 2025-10-08

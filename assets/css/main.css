@@ -144,6 +144,11 @@ body {
     display: block;
 }
 
+/* Mobile Call Banner - Hidden on Desktop */
+.mobile-call-banner {
+    display: none;
+}
+
 /* Mobile Navigation */
 .mobile-menu-toggle {
     display: none;
@@ -201,7 +206,48 @@ body {
     .nav-section {
         display: none;
     }
-    
+
+    /* Hide phone section on mobile to prevent overlap */
+    .phone-section {
+        display: none !important;
+    }
+
+    /* Show Mobile Call Banner */
+    .mobile-call-banner {
+        display: block;
+        background: #2c5aa0;
+        padding: 12px 20px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .mobile-call-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background: white;
+        color: #2c5aa0;
+        padding: 14px 32px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 1.25rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .mobile-call-button:active {
+        transform: scale(0.98);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .phone-icon {
+        font-size: 1.5rem;
+    }
+
     .mobile-menu-toggle {
         display: flex;
         position: absolute;
@@ -209,21 +255,34 @@ body {
         top: 50%;
         transform: translateY(-50%);
     }
-    
+
     .mobile-menu.active {
         display: block;
     }
-    
+
     .mobile-menu-toggle.active span:nth-child(1) {
         transform: rotate(-45deg) translate(-5px, 6px);
     }
-    
+
     .mobile-menu-toggle.active span:nth-child(2) {
         opacity: 0;
     }
-    
+
     .mobile-menu-toggle.active span:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    /* Adjust header for mobile */
+    .header {
+        padding: 10px 20px;
+    }
+
+    .logo-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .tagline {
+        font-size: 0.65rem;
     }
 }
 
@@ -257,6 +316,11 @@ body {
     justify-content: center;
     padding: 1rem 2rem 3rem 2rem;
     position: relative;
+}
+
+/* Hide mobile hero image on desktop */
+.hero-mobile-bg {
+    display: none;
 }
 
 .hero-local .hero-content {
@@ -1012,11 +1076,58 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero-subtitle {
-        font-size: 1.125rem;
+        font-size: 1rem;
+    }
+
+    .hero-local {
+        min-height: auto;
+        padding: 0;
+        background: none !important;
+        background-color: #1a2942 !important;
+        display: block;
+    }
+
+    /* Show mobile hero image */
+    .hero-mobile-bg {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-height: 400px;
+    }
+
+    /* Stack hero content vertically */
+    .hero-wrapper {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
+        gap: 1.5rem !important;
+        padding: 2rem 1rem !important;
+    }
+
+    .hero-local .hero-content {
+        padding: 1.5rem;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-local .hero-content h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-local .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    /* Resize the accredited badge on mobile */
+    .accredited-badge {
+        width: 150px !important;
+        order: -1;
     }
 
     .section-title {
@@ -1055,6 +1166,11 @@ body {
     .cta-button.cta-primary,
     .cta-button.cta-secondary {
         text-align: center;
+    }
+
+    .cta-button.cta-primary {
+        padding: 1.5rem 2rem;
+        font-size: 1.25rem;
     }
 }
 
