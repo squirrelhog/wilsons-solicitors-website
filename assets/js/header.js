@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <nav class="nav-section">
                 <ul class="nav-menu">
                     <li><a href="${pathPrefix}index.html">Home</a></li>
-                    <li class="has-dropdown">
+                    <!-- <li class="has-dropdown">
                         <a href="${pathPrefix}services.html">Services</a>
                         <ul class="dropdown-menu">
                             <li><a href="${pathPrefix}services/wills-estate-planning.html">Wills, Estate Planning & Business Succession</a></li>
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <li><a href="${pathPrefix}services/elder-law.html">Elder Law</a></li>
                             <li><a href="${pathPrefix}services/financial-loss-recovery.html">Financial Loss Recovery</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li><a href="${pathPrefix}about.html">About</a></li>
                     <!-- <li><a href="${pathPrefix}our-story.html">Our Story</a></li> -->
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="mobile-menu" id="mobileMenu">
                 <ul class="mobile-nav-menu">
                     <li><a href="${pathPrefix}index.html">Home</a></li>
-                    <li><a href="${pathPrefix}services.html">Services</a></li>
+                    <!-- <li><a href="${pathPrefix}services.html">Services</a></li> -->
                     <li><a href="${pathPrefix}about.html">About</a></li>
                     <!-- <li><a href="${pathPrefix}our-story.html">Our Story</a></li> -->
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
