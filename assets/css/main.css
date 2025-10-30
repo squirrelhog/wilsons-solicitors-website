@@ -318,6 +318,11 @@ body {
     position: relative;
 }
 
+/* Hide mobile hero image on desktop */
+.hero-mobile-bg {
+    display: none;
+}
+
 .hero-local .hero-content {
     background: rgba(44, 90, 160, 0.85);
     padding: 1.5rem 2rem;
@@ -1080,13 +1085,34 @@ body {
 
     .hero-local {
         min-height: auto;
-        padding: 2rem 1rem;
-        background-size: cover;
-        background-position: center;
+        padding: 0;
+        background: none !important;
+        background-color: #1a2942 !important;
+        display: block;
+    }
+
+    /* Show mobile hero image */
+    .hero-mobile-bg {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-height: 400px;
+    }
+
+    /* Stack hero content vertically */
+    .hero-wrapper {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
+        gap: 1.5rem !important;
+        padding: 2rem 1rem !important;
     }
 
     .hero-local .hero-content {
         padding: 1.5rem;
+        width: 100%;
+        max-width: 100%;
     }
 
     .hero-local .hero-content h1 {
@@ -1098,10 +1124,10 @@ body {
         font-size: 0.95rem;
     }
 
-    /* Hide or resize the accredited image on mobile */
-    .hero-local img[alt="Wills & Estates Law Accredited Specialist"] {
+    /* Resize the accredited badge on mobile */
+    .accredited-badge {
         width: 150px !important;
-        margin-bottom: 1rem;
+        order: -1;
     }
 
     .section-title {
