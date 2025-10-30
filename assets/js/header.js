@@ -24,13 +24,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         <a href="${pathPrefix}services.html">Services</a>
                         <ul class="dropdown-menu">
                             <li><a href="${pathPrefix}services/wills-estate-planning.html">Wills, Estate Planning & Business Succession</a></li>
-                            <li><a href="${pathPrefix}services/probate-administration.html">Estate Administration & Probate</a></li>
+                            <li><a href="${pathPrefix}services/probate-administration.html">Probate, Letters of Administration & estate administration</a></li>
                             <li><a href="${pathPrefix}services/conveyancing.html">Property & Conveyancing</a></li>
                             <li><a href="${pathPrefix}services/powers-attorney.html">Lifetime Planning - Power of Attorney & Enduring Guardianship</a></li>
-                            <li><a href="${pathPrefix}services/wrongful-death.html">Wrongful Death Claim</a></li>
-                            <li><a href="${pathPrefix}services/death-benefits.html">Superannuation Death Benefit Claims</a></li>
+                            <li><a href="${pathPrefix}services/wrongful-death.html">Wrongful Death Claims</a></li>
+                            <li><a href="${pathPrefix}services/death-benefits.html">Superannuation Planning and Death Benefit Claims</a></li>
                             <li><a href="${pathPrefix}services/estate-disputes.html">Estate Disputes & Litigation</a></li>
-                            <li><a href="${pathPrefix}services/elder-law.html">Elder Law</a></li>
+                            <li><a href="${pathPrefix}services/elder-law.html">Elder Law - Accommodation and Care</a></li>
                             <li><a href="${pathPrefix}services/financial-loss-recovery.html">Financial Loss Recovery</a></li>
                         </ul>
                     </li>
