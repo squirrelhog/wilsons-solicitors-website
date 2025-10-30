@@ -244,29 +244,34 @@ body {
     overflow: hidden;
 }
 
-/* Hero with Local Penrith Image */
+/* Hero with Australian Landmark Image */
 .hero-local {
-    background: url('../images/victoria-bridge-penrith.jpg') center/cover no-repeat;
+    background: url('../images/Hero_Image-1920w.webp') no-repeat;
+    background-position: center 15%;
+    background-size: 77.625% 172.5%;
+    background-color: #1a2942;
     color: white;
-    min-height: 450px;
+    min-height: 632.5px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding: 4rem 2rem;
+    padding: 1rem 2rem 3rem 2rem;
+    position: relative;
 }
 
 .hero-local .hero-content {
     background: rgba(44, 90, 160, 0.85);
-    padding: 2.5rem 3rem;
+    padding: 1.5rem 2rem;
     border-radius: 12px;
     backdrop-filter: blur(3px);
     max-width: 900px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-.hero-local h1 {
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+.hero-local .hero-content h1 {
+    color: #1a1a1a !important;
+    text-shadow: 0 1px 3px rgba(255,255,255,0.5);
+    font-weight: 800;
 }
 
 .hero-local .hero-subtitle {
@@ -626,10 +631,11 @@ body {
 .cta-button.cta-primary {
     background: white;
     color: #2c5aa0;
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
     border-radius: 8px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: 1.75rem;
     transition: all 0.3s ease;
     display: inline-block;
 }

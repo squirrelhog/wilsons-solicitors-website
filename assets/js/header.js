@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="logo-text">
                     <h1>Wilsons Solicitors Penrith</h1>
-                    <div class="tagline">PENRITH LAWYERS | WILLS | ESTATES | PROPERTY</div>
+                    <div class="tagline">WILLS | ESTATES | PROPERTY</div>
                 </div>
             </div>
 
@@ -20,23 +20,31 @@ document.addEventListener('DOMContentLoaded', function() {
             <nav class="nav-section">
                 <ul class="nav-menu">
                     <li><a href="${pathPrefix}index.html">Home</a></li>
-                    <li class="has-dropdown">
+                    <!-- <li class="has-dropdown">
                         <a href="${pathPrefix}services.html">Services</a>
                         <ul class="dropdown-menu">
-                            <li><a href="${pathPrefix}services/wills-estate-planning.html">Wills & Estate Planning</a></li>
-                            <li><a href="${pathPrefix}services/probate-administration.html">Probate & Administration</a></li>
+                            <li><a href="${pathPrefix}services/wills-estate-planning.html">Wills, Estate Planning & Business Succession</a></li>
+                            <li><a href="${pathPrefix}services/probate-administration.html">Estate Administration & Probate</a></li>
                             <li><a href="${pathPrefix}services/conveyancing.html">Property & Conveyancing</a></li>
-                            <li><a href="${pathPrefix}services/powers-attorney.html">Powers of Attorney</a></li>
-                            <li><a href="${pathPrefix}services/death-benefits.html">Death Benefits</a></li>
-                            <li><a href="${pathPrefix}services/estate-disputes.html">Estate Disputes</a></li>
+                            <li><a href="${pathPrefix}services/powers-attorney.html">Lifetime Planning - Power of Attorney & Enduring Guardianship</a></li>
+                            <li><a href="${pathPrefix}services/wrongful-death.html">Wrongful Death Claim</a></li>
+                            <li><a href="${pathPrefix}services/death-benefits.html">Superannuation Death Benefit Claims</a></li>
+                            <li><a href="${pathPrefix}services/estate-disputes.html">Estate Disputes & Litigation</a></li>
+                            <li><a href="${pathPrefix}services/elder-law.html">Elder Law</a></li>
+                            <li><a href="${pathPrefix}services/financial-loss-recovery.html">Financial Loss Recovery</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li><a href="${pathPrefix}about.html">About</a></li>
-                    <li><a href="${pathPrefix}our-story.html">Our Story</a></li>
+                    <!-- <li><a href="${pathPrefix}our-story.html">Our Story</a></li> -->
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
                     <li><a href="${pathPrefix}faqs.html">FAQs</a></li>
                 </ul>
             </nav>
+
+            <!-- Phone Section -->
+            <div class="phone-section" style="position: absolute; right: 8rem; top: 50%; transform: translateY(-50%);">
+                <a href="tel:0247315311" style="font-size: 2rem; font-weight: 900; color: #1a365d; text-decoration: underline; white-space: nowrap;">(02) 4731 5311</a>
+            </div>
 
             <!-- Mobile Menu Toggle -->
             <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
@@ -49,9 +57,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="mobile-menu" id="mobileMenu">
                 <ul class="mobile-nav-menu">
                     <li><a href="${pathPrefix}index.html">Home</a></li>
-                    <li><a href="${pathPrefix}services.html">Services</a></li>
+                    <!-- <li><a href="${pathPrefix}services.html">Services</a></li> -->
                     <li><a href="${pathPrefix}about.html">About</a></li>
-                    <li><a href="${pathPrefix}our-story.html">Our Story</a></li>
+                    <!-- <li><a href="${pathPrefix}our-story.html">Our Story</a></li> -->
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
                     <li><a href="${pathPrefix}faqs.html">FAQs</a></li>
                 </ul>
