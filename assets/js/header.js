@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </ul>
                     </li>
                     <li><a href="${pathPrefix}about.html">About</a></li>
-                    <li><a href="${pathPrefix}our-story.html">Our Story</a></li>
+                    <!-- <li><a href="${pathPrefix}our-story.html">Our Story</a></li> -->
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
                     <li><a href="${pathPrefix}faqs.html">FAQs</a></li>
                 </ul>
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li><a href="${pathPrefix}index.html">Home</a></li>
                     <li><a href="${pathPrefix}services.html">Services</a></li>
                     <li><a href="${pathPrefix}about.html">About</a></li>
-                    <li><a href="${pathPrefix}our-story.html">Our Story</a></li>
+                    <!-- <li><a href="${pathPrefix}our-story.html">Our Story</a></li> -->
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
                     <li><a href="${pathPrefix}faqs.html">FAQs</a></li>
                 </ul>
