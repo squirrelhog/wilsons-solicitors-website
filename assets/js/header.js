@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             <!-- Phone Section -->
             <div class="phone-section" style="position: absolute; right: 8rem; top: 50%; transform: translateY(-50%);">
-                <a href="tel:0247315311" style="font-size: 1.5rem; font-weight: bold; color: #1a365d; text-decoration: underline; white-space: nowrap;">(02) 4731 5311</a>
+                <a href="tel:0247315311" style="font-size: 2rem; font-weight: 900; color: #1a365d; text-decoration: underline; white-space: nowrap;">(02) 4731 5311</a>
             </div>
 
             <!-- Mobile Menu Toggle -->
