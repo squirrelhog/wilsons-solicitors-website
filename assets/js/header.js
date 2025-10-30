@@ -56,7 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Mobile Navigation -->
             <div class="mobile-menu" id="mobileMenu">
                 <ul class="mobile-nav-menu">
-                    <li><a href="tel:0247315311" style="background: #2c5aa0; color: white; font-weight: 700; text-align: center;">Call (02) 4731 5311</a></li>
                     <li><a href="${pathPrefix}index.html">Home</a></li>
                     <!-- <li><a href="${pathPrefix}services.html">Services</a></li> -->
                     <li><a href="${pathPrefix}about.html">About</a></li>

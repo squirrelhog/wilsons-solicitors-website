@@ -144,6 +144,11 @@ body {
     display: block;
 }
 
+/* Mobile Call Banner - Hidden on Desktop */
+.mobile-call-banner {
+    display: none;
+}
+
 /* Mobile Navigation */
 .mobile-menu-toggle {
     display: none;
@@ -205,6 +210,42 @@ body {
     /* Hide phone section on mobile to prevent overlap */
     .phone-section {
         display: none !important;
+    }
+
+    /* Show Mobile Call Banner */
+    .mobile-call-banner {
+        display: block;
+        background: #2c5aa0;
+        padding: 12px 20px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .mobile-call-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background: white;
+        color: #2c5aa0;
+        padding: 14px 32px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 1.25rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .mobile-call-button:active {
+        transform: scale(0.98);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .phone-icon {
+        font-size: 1.5rem;
     }
 
     .mobile-menu-toggle {
