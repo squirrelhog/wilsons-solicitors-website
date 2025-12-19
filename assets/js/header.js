@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Determine if we're in a subdirectory
-    const pathPrefix = window.location.pathname.includes('/services/') ? '../' : '';
+    const pathPrefix = (window.location.pathname.includes('/services/') || window.location.pathname.includes('/fees/')) ? '../' : '';
 
     const headerHTML = `
     <header class="header">
@@ -62,6 +62,14 @@ document.addEventListener('DOMContentLoaded', function() {
                             <li><a href="${pathPrefix}services/financial-loss-recovery.html">Financial Loss Recovery</a></li>
                         </ul>
                     </li> -->
+                    <li class="has-dropdown">
+                        <a href="#">Fees</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="${pathPrefix}fees/conveyancing-selling.html">Conveyancing Fees - Selling Property</a></li>
+                            <li><a href="${pathPrefix}fees/conveyancing-buying.html">Conveyancing Fees - Buying Property</a></li>
+                            <li><a href="${pathPrefix}fees/wills-estate-planning.html">Wills, Powers of Attorney & Guardianship</a></li>
+                        </ul>
+                    </li>
                     <li><a href="${pathPrefix}about.html">About</a></li>
                     <!-- <li><a href="${pathPrefix}our-story.html">Our Story</a></li> -->
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
@@ -86,6 +94,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 <ul class="mobile-nav-menu">
                     <li><a href="${pathPrefix}index.html">Home</a></li>
                     <!-- <li><a href="${pathPrefix}services.html">Services</a></li> -->
+                    <li class="mobile-submenu-header">Fees</li>
+                    <li class="mobile-submenu-item"><a href="${pathPrefix}fees/conveyancing-selling.html">› Conveyancing - Selling</a></li>
+                    <li class="mobile-submenu-item"><a href="${pathPrefix}fees/conveyancing-buying.html">› Conveyancing - Buying</a></li>
+                    <li class="mobile-submenu-item"><a href="${pathPrefix}fees/wills-estate-planning.html">› Wills & Estate Planning</a></li>
                     <li><a href="${pathPrefix}about.html">About</a></li>
                     <!-- <li><a href="${pathPrefix}our-story.html">Our Story</a></li> -->
                     <li><a href="${pathPrefix}contact.html">Contact</a></li>
